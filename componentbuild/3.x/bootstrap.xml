@@ -6,7 +6,7 @@
     <property name="yui.variable" value="Y"/>
     <property name="component.logger.regex" value="^.*?(?:logger|Y.log).*?(?:;|\).*;|(?:\r?\n.*?)*?\).*;).*;?.*?\r?\n" />
 
-    <import file="${builddir}/shared/properties.xml" description="Properties common to yui2/yui3" />
+    <import file="../shared/properties.xml" description="Properties common to yui2/yui3" />
 
     <import file="${targets}" description="Build Targets" />
 </project>
